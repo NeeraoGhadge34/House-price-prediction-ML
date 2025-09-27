@@ -22,7 +22,6 @@ This project is a first pass to get us quickly to a reasonable good model protot
 Problem Statement:-
 
 The objective is to build a machine learning model to predict house prices based on historical data. Accurate prediction models are essential for:
-
 •	Helping buyers and sellers make informed decisions.
 •	Assisting banks in mortgage approvals.
 •	Supporting real estate businesses in market analysis.
