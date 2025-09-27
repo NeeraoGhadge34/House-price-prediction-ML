@@ -2,12 +2,12 @@
 
 Table of Contents:-
 
-Introduction
-Problem Statement
-Introduction to Random Forest
-Assumptions of Random Forest
-Results
-Conclusion
+1.	Introduction
+2.	Problem Statement
+3.	Introduction to Random Forest
+4.	Assumptions of Random Forest
+5.	Results
+6.	Conclusion
 
 Introduction:-
 
@@ -23,31 +23,31 @@ Problem Statement:-
 
 The objective is to build a machine learning model to predict house prices based on historical data. Accurate prediction models are essential for:
 
-Helping buyers and sellers make informed decisions.
-Assisting banks in mortgage approvals.
-Supporting real estate businesses in market analysis.
+•	Helping buyers and sellers make informed decisions.
+•	Assisting banks in mortgage approvals.
+•	Supporting real estate businesses in market analysis.
 
 Introduction to Random Forest:-
 
 Random Forest is an ensemble learning algorithm that builds multiple decision trees and combines their predictions to improve accuracy and reduce overfitting. Each tree is trained on a random subset of the data and features, making the model highly robust and generalizable.
 
 Key characteristics:
-Works well with both categorical and numerical data.
-Handles missing values effectively.
-Reduces variance by averaging multiple decision trees.
-Provides feature importance for better interpretability.
+•	Works well with both categorical and numerical data.
+•	Handles missing values effectively.
+•	Reduces variance by averaging multiple decision trees.
+•	Provides feature importance for better interpretability.
 
 Assumptions of Random Forest:-
 
-Independence of trees – Each decision tree is trained independently.
-Bootstrap sampling – Data subsets drawn with replacement provide diversity.
-Feature randomness – At each split, a random subset of features is chosen.
-Sufficient data – Works best with large datasets to capture variability.
+•	Independence of trees – Each decision tree is trained independently.
+•	Bootstrap sampling – Data subsets drawn with replacement provide diversity.
+•	Feature randomness – At each split, a random subset of features is chosen.
+•	Sufficient data – Works best with large datasets to capture variability.
 
 Result and conclusions:-
 
-The Random Forest model achieved strong predictive accuracy compared to baseline models (82%).
-It provided insights into the most important features influencing house prices (e.g., Income, location, number of bedrooms, etc.).
-The model effectively reduced overfitting and generalized well on test data.
+•	The Random Forest model achieved strong predictive accuracy compared to baseline models (82%).
+•	It provided insights into the most important features influencing house prices (e.g., Income, location, number of bedrooms, etc.).
+•	The model effectively reduced overfitting and generalized well on test data.
 
 Overall, Random Forest proved to be a reliable method for real-world price prediction tasks.
