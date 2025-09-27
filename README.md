@@ -44,7 +44,7 @@ Bootstrap sampling – Data subsets drawn with replacement provide diversity.
 Feature randomness – At each split, a random subset of features is chosen.
 Sufficient data – Works best with large datasets to capture variability.
 
-Results
+Result and conclusions:-
 
 The Random Forest model achieved strong predictive accuracy compared to baseline models (82%).
 It provided insights into the most important features influencing house prices (e.g., Income, location, number of bedrooms, etc.).
